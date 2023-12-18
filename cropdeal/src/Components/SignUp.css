@@ -1,0 +1,80 @@
+
+.containerss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+ 
+}
+
+.formss-containerss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* .formss-image {
+  flex: 1;
+  max-width: 300px;
+  margin-right: 20px;
+} */
+
+/* .formss {
+  flex: 1;
+} */
+
+.formss h2 {
+  /* text-align: center;
+  margin-bottom: 20px; */
+  text-align:center;
+  margin-bottom: 25px;
+  color: rgb(9, 12, 12);
+  font-size: 40px;
+  font-style:oblique
+}
+
+.formss .formss-group {
+  margin-bottom: 15px;
+}
+
+.formss label {
+  font-weight: bold;
+}
+
+.formss .text-center {
+  text-align: center;
+}
+/* 
+.formss .mt-4 {
+  margin-top: 5px;
+} */
+
+.formss .btn-success {
+  width: 120px;
+  background-color: #218838;
+  /* margin-top: 20px; */
+}
+.register-image {
+
+  width: 400px;
+
+  height: 400px;
+
+  margin-right: 40px;
+  border-radius: 10px;
+  
+
+}
+.formss-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

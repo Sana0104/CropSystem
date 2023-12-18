@@ -1,0 +1,29 @@
+.table-container {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: aliceblue;
+  }
+  
+  .table-container td, .table-container th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40%;
+  }
+  
+  .table-container tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  .table-container th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center; 
+
+  }
+  

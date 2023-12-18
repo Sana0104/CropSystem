@@ -1,0 +1,77 @@
+.order-containers {
+    background-color: rgb(188, 195, 153);
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+  
+  }
+  
+  .order-details {
+    margin-bottom: 20px;
+  }
+  
+  .crops-containers {
+    background-color: rgb(105, 102, 104);
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    width: 40%;
+    margin-left: 30%;
+  }
+  
+  .crops-containers h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .crops-containers div {
+    margin-bottom: 10px;
+  }
+  
+  .crops-containers p {
+    color: white;
+    margin: 0;
+  }
+  .order-details p {
+    margin-bottom: 10px;
+    color: aliceblue;
+  }
+  .shippingaddress-containers{
+    background-color: rgb(105, 102, 104);
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    width: 40%;
+    margin-left: 30%;
+
+  }
+  .shipping-address-header {
+    font-family: Arial, sans-serif; /* Change the font family as per your preference */
+    color: #1a1717; /* Change the color to your preferred color code */
+    font-size: 10;
+  }
+  .page-buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .page-buttons button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .page-buttons button:hover {
+    background-color: #45a049;
+  }
+  

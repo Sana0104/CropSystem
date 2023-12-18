@@ -1,0 +1,138 @@
+.crops-container-farmer {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .crop-rows-farmer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .crop-box-farmer{
+    display: flex;
+    flex-basis: 22%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.3); 
+  }
+  
+  
+  .crop-content-farmer {
+    background-color: rgba(8, 9, 0, 0.6); 
+    color: rgb(247, 244, 244);
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  
+  .crop-image-farmer {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* CSS for the navigation bar */
+  .navbar-farmer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+  }
+  
+ 
+ 
+
+  
+  .crop-content-farmer p {
+    margin: 5px;
+  }
+  
+  .crop-content-farmer button {
+    width: 80px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .crop-content-farmer button:hover {
+    background-color: #45a049;
+  }
+  
+.button-group{
+    margin-trim: 2%;
+}
+.crop-box-farmer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 300px;
+  }
+  
+  .crop-content-farmer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .crop-content-farmer p {
+    margin: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .update-button {
+    width: 50px;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10%;
+    margin-left: 30px; 
+  }
+  
+  .delete-button {
+    width: 50px;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+   
+    margin-right: 30px; 
+    margin-bottom: 10%;
+  }
+  .addcrop-button{
+    width: 100px;
+   
+    background-color: #115e0b;
+    color: white;
+    cursor: pointer;
+ 
+  }

@@ -1,0 +1,90 @@
+.address-box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #c01111;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .address-container {
+    color: #1c0808;
+    font-weight: bold;
+  
+   
+  }
+  
+  .payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+
+  
+  .payment-form-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .payment-form-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .payment-form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .payment-form-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .payment-form-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 128, 0, 0.9); /* Adjust the color as needed */
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Adjust the text color as needed */
+  }
+  
+  .success-symbol {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+   
+  
